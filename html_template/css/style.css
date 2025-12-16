@@ -28,7 +28,7 @@
 /* Custom properties            */
 /* ---------------------------- */
 :root {
-  --primary-color:#FFF326;
+  --primary-color:#1212b0;
   --secondary-color:#1E1E1E;
   --text-color:#FFFFFF;
   --text-color-2:#AAAAAA;
@@ -226,8 +226,8 @@ p, a {
 /* ---------------------------- */
 .btn-cta-primary {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
-  border: #FFF326 1px solid;
+  color: var(--ascent-color);
+  border: #1212b0 1px solid;
   padding: 13px 30px;
   font-size: 18px;
   border-radius: 30px;
