@@ -22,13 +22,13 @@
 /* ---------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('/bootstrap.min.css');
+@import url('../css/vendor/bootstrap.min.css');
 
 /* ---------------------------- */
 /* Custom properties            */
 /* ---------------------------- */
 :root {
-  --primary-color:#1212b0;
+  --primary-color:#FFF326;
   --secondary-color:#1E1E1E;
   --text-color:#FFFFFF;
   --text-color-2:#AAAAAA;
@@ -226,8 +226,8 @@ p, a {
 /* ---------------------------- */
 .btn-cta-primary {
   background-color: var(--primary-color);
-  color: var(--ascent-color);
-  border: #1212b0 1px solid;
+  color: var(--secondary-color);
+  border: #FFF326 1px solid;
   padding: 13px 30px;
   font-size: 18px;
   border-radius: 30px;
