@@ -20,7 +20,7 @@ $(function () {
       var formData = form.serialize();
       $.ajax({
         type: "POST",
-        url: "html_template/php/form_process.php",
+        url: "php/form_process.php",
         data: formData,
         success: function (response) {
           if (response === 'success') {
