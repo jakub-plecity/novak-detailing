@@ -490,6 +490,15 @@ p, a {
   color: var(--accent-color);
 }
 
+/* Telefonní odkaz bez podtržení */
+.tel-link,
+.tel-link:hover,
+.tel-link:focus,
+.tel-link:visited {
+  text-decoration: none;
+}
+
+
 .card-team-label {
   background-color: var(--accent-color);
   opacity: 85%;
