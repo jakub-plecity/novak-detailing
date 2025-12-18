@@ -35,7 +35,7 @@ $(function () {
               $('.submit_form').html('Send Message');
             }
           } else {
-            // errtoast.show()
+            errtoast.show()
             console.log('errorrrrrr')
             $('.submit_form').html('Send Message');
             $('.submit_subscribe').html('Subscribe');
